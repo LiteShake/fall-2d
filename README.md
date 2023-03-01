@@ -29,3 +29,4 @@ A 2D Unity android game based on AI and Accelerometer !
 
 > Frontend
 - [ ] Epic photoshop background
+More coming soon ( O_O)
