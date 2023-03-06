@@ -4,25 +4,23 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the 
-    float speed = 10.0f; // first frame update
+    Rigidbody2D playerBody;
 
+    float dirX;
+    float speed = 20f;
+
+    // Start is called before the first frame update
     void Start()
     {
         
+        playerBody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        dir.x = -Input.acceleration.y;
-        dir.z = Input.acceleration.x;
+        Vector2 accn = Input.acceleration ;
 
-        // clamp acceleration vector to unit sphere
-        if (dir.sqrMagnitude > 1)
-            dir.Normalize();
-
-        // Make it move 10 meters per second instead of 10 meters per frame...
-        dir *= Time.deltaTime;
+        playerBody.velocity = new Vector2(accn.x * 10, 0f);
     }
 }

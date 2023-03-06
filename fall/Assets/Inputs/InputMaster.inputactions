@@ -1,0 +1,34 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "3d5cda99-7c52-43ef-af0b-35301ad18142",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "2694ed1d-1213-47c1-a7aa-eb6874840c5c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "26380b5e-1207-47f4-a1b2-6ced152401ef",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
