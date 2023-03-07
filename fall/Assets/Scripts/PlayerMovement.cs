@@ -20,7 +20,8 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         Vector2 accn = Input.acceleration ;
+           
 
-        playerBody.velocity = new Vector2(accn.x * 10, 0f);
+        playerBody.velocity = new Vector2(accn.x * 25, 0f);
     }
 }
