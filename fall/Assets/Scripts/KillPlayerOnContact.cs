@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class KillPlayerOnContact : MonoBehaviour
 {
@@ -14,5 +15,13 @@ public class KillPlayerOnContact : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if( other.tag == "Enemy" )
+        {
+            SceneManager.LoadScene("MainGame");
+        }
     }
 }
