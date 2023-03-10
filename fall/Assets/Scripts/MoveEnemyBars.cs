@@ -8,13 +8,14 @@ public class MoveEnemyBars : MonoBehaviour
     // Renderer enemyRenderer;
 
     // Vanilla data
-    float speed = 6.9f;
+    public float speed = 3f;
 
     // Start is called before the first frame update
     void Start()
     {
         // enemy = GetComponent<Rigidbody2D>();
         // xCoord = - 3 + Random.Range(0, 3.69f);
+        Debug.Log(speed);
     }
 
     // Update is called once per frame

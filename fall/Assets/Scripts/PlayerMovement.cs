@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D playerBody;
 
     float dirX;
-    // float speed = 20f;
+    float speed = 25f;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +22,6 @@ public class PlayerMovement : MonoBehaviour
         Vector2 accn = Input.acceleration ;
            
 
-        playerBody.velocity = new Vector2(accn.x * 25, 0f);
+        playerBody.velocity = new Vector2(accn.x * speed, 0f);
     }
 }
