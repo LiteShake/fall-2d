@@ -3,9 +3,9 @@ A 2D Unity android game based on AI and Accelerometer !
 
 ### To Do
 > Backend
-- [ ] Cheracter Controller Script
-- [ ] Enemy prefabs
-- [ ] Enemy Upward Script
+- [x] Cheracter Controller Script
+- [x] Enemy prefabs
+- [x] Enemy Upward Script
 - [ ] Player KillOnTouch Script
 - [ ] Reaset to start Script
 - [ ] Score Script

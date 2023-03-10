@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D playerBody;
 
     float dirX;
-    float speed = 20f;
+    // float speed = 20f;
 
     // Start is called before the first frame update
     void Start()
