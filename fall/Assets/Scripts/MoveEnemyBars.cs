@@ -15,7 +15,7 @@ public class MoveEnemyBars : MonoBehaviour
     {
         // enemy = GetComponent<Rigidbody2D>();
         // xCoord = - 3 + Random.Range(0, 3.69f);
-        Debug.Log(speed);
+        //Debug.Log(speed);
     }
 
     // Update is called once per frame
@@ -28,7 +28,7 @@ public class MoveEnemyBars : MonoBehaviour
         
         if( transform.position.y > 7 )
         {
-            Debug.Log("Moved out !");
+            // Debug.Log("Moved out !");
             Destroy( this.gameObject );
 
         }

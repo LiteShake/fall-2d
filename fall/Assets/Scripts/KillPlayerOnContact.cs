@@ -19,9 +19,26 @@ public class KillPlayerOnContact : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if( other.tag == "Enemy" )
+        switch( other.tag )
         {
-            SceneManager.LoadScene("MainGame");
+            case "Enemy":
+
+                SceneManager.LoadScene("MainGame");
+                break;
+
+            case "Singularity":
+
+                StartCoroutine( SlowMotion( 30.0f ) );
+                break;
+                
+            default: break; 
         }
+    }
+
+    IEnumerator SlowMotion( float slowTime )
+    {
+        Time.timeScale = 0.4f;
+        yield return new WaitForSeconds( slowTime );
+        Time.timeScale = 1.0f;
     }
 }

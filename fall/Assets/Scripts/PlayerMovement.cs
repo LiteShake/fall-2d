@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D playerBody;
 
     float dirX;
-    float speed = 25f;
+    float speed = 15f;
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +20,8 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         Vector2 accn = Input.acceleration ;
-           
 
-        playerBody.velocity = new Vector2(accn.x * speed, 0f);
+
+        playerBody.velocity = new Vector2(accn.x * speed, 0f);// * Time.unscaledDeltaTime;
     }
 }
