@@ -59,7 +59,7 @@ public class SpawnEnemies : MonoBehaviour
             xCoord = Random.Range( -3.0f, 0.69f );
 
             // Getting instantiated GameObject and changing speed according to score
-            GameObject instantiated = (GameObject)Instantiate(enemyBar, new Vector2( xCoord, -7 ),Quaternion.identity );
+            GameObject instantiated = (GameObject)Instantiate(enemyBar, new Vector2( xCoord, -7 + Random.Range(-0.25f, 0.25f) ),Quaternion.identity );
             instantiated.GetComponent<MoveEnemyBars>().speed += (score / 20);
 
             score++;
