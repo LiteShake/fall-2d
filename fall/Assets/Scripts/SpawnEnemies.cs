@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
@@ -10,6 +11,10 @@ public class SpawnEnemies : MonoBehaviour
 {
     [SerializeField]
     private GameObject enemyBar;
+
+    [SerializeField]
+    private GameObject enemyBarSingu;
+
     public TextMeshPro scoreCard;
     public TextMeshPro startCountdown;
     
@@ -56,10 +61,15 @@ public class SpawnEnemies : MonoBehaviour
             yield return new WaitForSeconds(1f);
             if( !canStart ) { continue; }
             // Debug.Log("hello");
-            xCoord = Random.Range( -3.0f, 0.69f );
+            xCoord = UnityEngine.Random.Range( -3.0f, 0.69f );
+            int spawnSingu = (int)UnityEngine.Random.Range(0.0f, 2.0f);
+
+            GameObject toSpawn = enemyBar;
+
+            if( ! Convert.ToBoolean( spawnSingu ) ) { toSpawn = enemyBarSingu ; }
 
             // Getting instantiated GameObject and changing speed according to score
-            GameObject instantiated = (GameObject)Instantiate(enemyBar, new Vector2( xCoord, -7 + Random.Range(-0.25f, 0.25f) ),Quaternion.identity );
+            GameObject instantiated = (GameObject)Instantiate(toSpawn, new Vector2( xCoord, -7 + UnityEngine.Random.Range(-0.25f, 0.25f) ),Quaternion.identity );
             instantiated.GetComponent<MoveEnemyBars>().speed += (score / 20);
 
             score++;
