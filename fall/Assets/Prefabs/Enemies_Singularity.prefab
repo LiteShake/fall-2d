@@ -170,6 +170,7 @@ GameObject:
   - component: {fileID: 4109928845215725659}
   - component: {fileID: 4271438310212625540}
   - component: {fileID: 2356493418457920939}
+  - component: {fileID: 3607940320318154462}
   m_Layer: 0
   m_Name: Singularity
   m_TagString: Powerups
@@ -186,8 +187,8 @@ Transform:
   m_GameObject: {fileID: 7113368909046151805}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.38, y: -0.02, z: -0.031786524}
-  m_LocalScale: {x: 0.4348663, y: 0.4348663, z: 0.4348663}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.19, y: 0.19, z: 0.19}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 754979468869205062}
   m_RootOrder: 2
@@ -254,12 +255,24 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.000000022351742, y: -0.000000059604645}
   serializedVersion: 2
   m_Radius: 0.49999997
+--- !u!114 &3607940320318154462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7113368909046151805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d4f43014f1b43428b447be968bb3e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7139571148965724490
 GameObject:
   m_ObjectHideFlags: 0

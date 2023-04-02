@@ -62,7 +62,7 @@ public class SpawnEnemies : MonoBehaviour
             if( !canStart ) { continue; }
             // Debug.Log("hello");
             xCoord = UnityEngine.Random.Range( -3.0f, 0.69f );
-            int spawnSingu = (int)UnityEngine.Random.Range(0.0f, 2.0f);
+            int spawnSingu = (int)UnityEngine.Random.Range(0.0f, 20.0f);
 
             GameObject toSpawn = enemyBar;
 

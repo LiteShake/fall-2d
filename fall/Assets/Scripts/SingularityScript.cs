@@ -10,12 +10,6 @@ public class SingularityScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // vig = 
-        StartCoroutine(SlowMotion( 10f, 0.4f ));
-        StartCoroutine(SlowMotion( 10f, 1.0f ));
-        //Time.timeScale = 0.4f;
-        //StartCoroutine(SlowMotion( 10f ));
-        //Time.timeScale = 1.0f;
     }
 
     // Update is called once per frame
@@ -27,7 +21,8 @@ public class SingularityScript : MonoBehaviour
     {
         if( collision.name == "Singularity" )
         {
-            
+            Debug.Log("Touchhh");
+            StartCoroutine(SlowMotion(10f, 0.4f));
         }
     }
 
@@ -37,6 +32,7 @@ public class SingularityScript : MonoBehaviour
         Debug.Log("Reduced speed to " + scale);
         yield return new WaitForSeconds(  seconds );
         Debug.Log("This works !");
+        Time.timeScale = 1f;
         //yield return new WaitForSeconds( 30 ) ;
     }
 }
