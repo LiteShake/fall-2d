@@ -11182,7 +11182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyBar: {fileID: 466784068683254748, guid: 2abf7bf7a5db41a4cb62cb613eb7edd4, type: 3}
-  enemyBarSingu: {fileID: 0}
+  enemyBarSingu: {fileID: 466784068683254748, guid: 4150614413632774d97edbb1ba8f2300, type: 3}
   scoreCard: {fileID: 1380991906}
   startCountdown: {fileID: 1235570282}
   score: 0
