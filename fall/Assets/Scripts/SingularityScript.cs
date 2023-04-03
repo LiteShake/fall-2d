@@ -22,7 +22,7 @@ public class SingularityScript : MonoBehaviour
         if( collision.name == "Singularity" )
         {
             Debug.Log("Touchhh");
-            StartCoroutine(SlowMotion(10f, 0.4f));
+            // StartCoroutine(SlowMotion(10f, 0.4f));
         }
     }
 

@@ -13,7 +13,7 @@ public class SpawnEnemies : MonoBehaviour
     private GameObject enemyBar;
 
     [SerializeField]
-    private GameObject enemyBarSingu;
+    private GameObject enemyBarSingu, enemyBarAyu ;
 
     public TextMeshPro scoreCard;
     public TextMeshPro startCountdown;
@@ -62,11 +62,13 @@ public class SpawnEnemies : MonoBehaviour
             if( !canStart ) { continue; }
             // Debug.Log("hello");
             xCoord = UnityEngine.Random.Range( -3.0f, 0.69f );
-            int spawnSingu = (int)UnityEngine.Random.Range(0.0f, 20.0f);
+            int spawnSingu = (int)UnityEngine.Random.Range(0.0f, 15.0f);
+            int spawnAyu = (int)UnityEngine.Random.Range(0.0f, 20.0f);
 
             GameObject toSpawn = enemyBar;
 
             if( ! Convert.ToBoolean( spawnSingu ) ) { toSpawn = enemyBarSingu ; }
+            if( ! Convert.ToBoolean( spawnAyu ) ) { toSpawn = enemyBarAyu ; }
 
             // Getting instantiated GameObject and changing speed according to score
             GameObject instantiated = (GameObject)Instantiate(toSpawn, new Vector2( xCoord, -7 + UnityEngine.Random.Range(-0.25f, 0.25f) ),Quaternion.identity );
