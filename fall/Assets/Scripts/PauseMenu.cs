@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
 
     [SerializeField]
     GameObject pauseMenuGUI;
+
+    Toggle graphicsToggle;
+    Toggle AudioSlider;
 
     // Start is called before the first frame update
     public void Resume()
@@ -31,4 +35,5 @@ public class PauseMenu : MonoBehaviour
 
         SceneManager.LoadScene("MainGame");
     }
+
 }
