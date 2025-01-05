@@ -6,19 +6,19 @@ A 2D Unity android game based on AI and Accelerometer !
 - [x] Cheracter Controller Script
 - [x] Enemy prefabs
 - [x] Enemy Upward Script
-- [ ] Player KillOnTouch Script
-- [ ] Reaset to start Script
-- [ ] Score Script
+- [x] Player KillOnTouch Script
+- [x] Reaset to start Script
+- [x] Score Script
 - [ ] Save System
-- [ ] Pause Menu
+- [x] Pause Menu
   - [ ] Settings
     - [ ] Volume
     - [ ] Graphics
-  - [ ] Resume
-  - [ ] Menu
+  - [x] Resume
+  - [x] Menu
   
 - [ ] Main menu
-  - [ ] Exit
+  - [x] Exit
   - [ ] Settings
     - [ ] Volume
     - [ ] Graphics settings
