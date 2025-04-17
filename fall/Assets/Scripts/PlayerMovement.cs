@@ -22,6 +22,6 @@ public class PlayerMovement : MonoBehaviour
         Vector2 accn = Input.acceleration ;
 
 
-        playerBody.velocity = new Vector2(accn.x * speed, 0f); // * Time.unscaledDeltaTime;
+        playerBody.linearVelocity = new Vector2(accn.x * speed, 0f); // * Time.unscaledDeltaTime;
     }
 }

@@ -1,0 +1,351 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.40f1 (157d81624ddf) revision 1408385'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15608 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Editor\6000.0.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Nerd Work/Game Dev/Personal/fall-2d/fall
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50805
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/Nerd Work/Game Dev/Personal/fall-2d/fall
+D:/Nerd Work/Game Dev/Personal/fall-2d/fall
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30292]  Target information:
+
+Player connection [30292]  * "[IP] 192.168.199.1 [Port] 0 [Flags] 2 [Guid] 3792300200 [EditorId] 3792300200 [Version] 1048832 [Id] WindowsEditor(7,Hikari) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30292]  * "[IP] 192.168.154.1 [Port] 0 [Flags] 2 [Guid] 3792300200 [EditorId] 3792300200 [Version] 1048832 [Id] WindowsEditor(7,Hikari) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30292]  * "[IP] 192.168.31.122 [Port] 0 [Flags] 2 [Guid] 3792300200 [EditorId] 3792300200 [Version] 1048832 [Id] WindowsEditor(7,Hikari) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30292] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30292] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 8.78 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.40f1 (157d81624ddf)
+[Subsystems] Discovering subsystems at path D:/Unity/Editor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Nerd Work/Game Dev/Personal/fall-2d/fall/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'D:/Unity/Editor/6000.0.40f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002138 seconds.
+- Loaded All Assemblies, in  0.394 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 171 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.540 seconds
+Domain Reload Profiling: 934ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (133ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (146ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (541ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (494ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (261ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.712 seconds
+Refreshing native plugins compatible for Editor in 6.83 ms, found 5 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.InvalidOperationException: There is an error in XML document (8, 2). ---> System.Xml.XmlException: Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 8, position 2.
+  at System.Xml.XmlTextReaderImpl.Throw (System.Exception e) [0x00027] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at System.Xml.XmlTextReaderImpl.Throw (System.String res, System.String[] args) [0x00029] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at System.Xml.XmlTextReaderImpl.Throw (System.Int32 pos, System.String res, System.String[] args) [0x0000c] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at System.Xml.XmlTextReaderImpl.ParseQName (System.Boolean isQName, System.Int32 startOffset, System.Int32& colonPos) [0x00088] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at System.Xml.XmlTextReaderImpl.ParseQName (System.Int32& colonPos) [0x00000] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at System.Xml.XmlTextReaderImpl.ParseElement () [0x000b2] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at System.Xml.XmlTextReaderImpl.ParseElementContent () [0x0016f] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at System.Xml.XmlTextReaderImpl.Read () [0x00085] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at System.Xml.XmlTextReader.Read () [0x00000] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at System.Xml.XmlReader.ReadElementString () [0x0008a] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderERPSettings.Read2_ERPSettings (System.Boolean isNullable, System.Boolean checkType) [0x002c8] in <f65892e8922e4895bdf333010e52595f>:0 
+  at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderERPSettings.Read3_ERPSettings () [0x00050] in <f65892e8922e4895bdf333010e52595f>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <13c0c460649d4ce49f991e2c222fa635>:0 
+   --- End of inner exception stack trace ---
+  at System.Xml.Serialization.XmlSerializer.Deserialize (System.Xml.XmlReader xmlReader, System.String encodingStyle, System.Xml.Serialization.XmlDeserializationEvents events) [0x0011b] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at System.Xml.Serialization.XmlSerializer.Deserialize (System.Xml.XmlReader xmlReader, System.String encodingStyle) [0x00000] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at System.Xml.Serialization.XmlSerializer.Deserialize (System.IO.Stream stream) [0x0001c] in <8a0303fb34874ce7ba5e30fe08024fe9>:0 
+  at ERP.ERPSettings.GetSettings () [0x00027] in D:\Nerd Work\Game Dev\Personal\fall-2d\fall\Assets\ERP\Editor\ERPSettings.cs:45 
+  at ERP.ERP..cctor () [0x00032] in D:\Nerd Work\Game Dev\Personal\fall-2d\fall\Assets\ERP\Editor\ERP.cs:40 
+0x00007ffed5879dbd (Unity) StackWalker::ShowCallstack
+0x00007ffed5889d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffed6af8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffed70a18bf (Unity) DebugStringToFile
+0x00007ffed49df945 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000245925a317d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000245925a3043 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000245925a28ab (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x000002459258ffa0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x000002459258fe65 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000245872f53b3 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000024585d70b48 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007fff37f868de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007fff37ec8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007fff37ec84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ffed579e0c4 (Unity) scripting_method_invoke
+0x00007ffed5775e43 (Unity) ScriptingInvocation::Invoke
+0x00007ffed5771105 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ffed58ec0a3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ffed576c81c (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ffed5763e9a (Unity) MonoManager::FinalizeReload
+0x00007ffed6c9e5f5 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ffed6cedfaf (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ffed6cc8c47 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
+0x00007ffed6dab6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffed6d98f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffed6d9a29e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffed6da9cfc (Unity) IOService::Run
+0x00007ffed6cf2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffed6cf20eb (Unity) RunAssetImporterV2
+0x00007ffed64fae78 (Unity) Application::InitializeProject
+0x00007ffed6b031b5 (Unity) UnityMain
+0x00007ff7d8cb2fba (Unity) __scrt_common_main_seh
+0x00007fffa0dee8d7 (KERNEL32) BaseThreadInitThunk
+0x00007fffa1af14fc (ntdll) RtlUserThreadStart
+
+Refreshing native plugins compatible for Editor in 6.71 ms, found 5 plugins.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.967 seconds
+Domain Reload Profiling: 1677ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (152ms)
+			BuildScriptInfoCaches (48ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (967ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (861ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (692ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 12.27 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 66 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5317 unused Assets / (3.6 MB). Loaded Objects now: 5770.
+Memory consumption went from 113.8 MB to 110.2 MB.
+Total: 17.431100 ms (FindLiveObjects: 1.347100 ms CreateObjectMapping: 1.659600 ms MarkObjects: 10.539600 ms  DeleteObjects: 3.883000 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.582 seconds
+Refreshing native plugins compatible for Editor in 6.24 ms, found 5 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.IO.IOException: Sharing violation on path D:\Nerd Work\Game Dev\Personal\fall-2d\fall\.erp
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode)
+  at ERP.ERPSettings.GetSettings () [0x0001b] in D:\Nerd Work\Game Dev\Personal\fall-2d\fall\Assets\ERP\Editor\ERPSettings.cs:44 
+  at ERP.ERP..cctor () [0x00032] in D:\Nerd Work\Game Dev\Personal\fall-2d\fall\Assets\ERP\Editor\ERP.cs:40 
+0x00007ffed5879dbd (Unity) StackWalker::ShowCallstack
+0x00007ffed5889d79 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffed6af8bbe (Unity) Stacktrace::GetStacktrace
+0x00007ffed70a18bf (Unity) DebugStringToFile
+0x00007ffed49df945 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000245872f25dd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000245872f24a3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000245872f1bcb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x000002458712f320 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x000002458712f1e5 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x0000024585d7d023 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000024592560b48 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007fff37f868de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007fff37ec8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007fff37ec84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ffed579e0c4 (Unity) scripting_method_invoke
+0x00007ffed5775e43 (Unity) ScriptingInvocation::Invoke
+0x00007ffed5771105 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ffed58ec0a3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ffed576c81c (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ffed5763e9a (Unity) MonoManager::FinalizeReload
+0x00007ffed6c9e5f5 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ffed6cedfaf (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ffed6cc79ac (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffed6dab6de (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffed6d98f6a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffed6d9a2d4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffed6da9cfc (Unity) IOService::Run
+0x00007ffed6cf2026 (Unity) RunAssetImportWorkerClientV2
+0x00007ffed6cf20eb (Unity) RunAssetImporterV2
+0x00007ffed64fae78 (Unity) Application::InitializeProject
+0x00007ffed6b031b5 (Unity) UnityMain
+0x00007ff7d8cb2fba (Unity) __scrt_common_main_seh
+0x00007fffa0dee8d7 (KERNEL32) BaseThreadInitThunk
+0x00007fffa1af14fc (ntdll) RtlUserThreadStart
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.661 seconds
+Domain Reload Profiling: 1244ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (661ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (544ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (382ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 12.72 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5315 unused Assets / (4.3 MB). Loaded Objects now: 5773.
+Memory consumption went from 102.0 MB to 97.7 MB.
+Total: 20.509400 ms (FindLiveObjects: 1.536600 ms CreateObjectMapping: 1.876700 ms MarkObjects: 11.561500 ms  DeleteObjects: 5.532300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
